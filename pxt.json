@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "joystickbit": "github:tinkertanker/pxt-joystickbit#v1.0.5"
+        "joystickbit": "github:tinkertanker/pxt-joystickbit#v1.0.5",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.2.4"
     },
     "files": [
         "main.blocks",
