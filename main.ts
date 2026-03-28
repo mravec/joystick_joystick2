@@ -22,11 +22,11 @@ joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType
 let y = 0
 let x = 0
 basic.showLeds(`
-    . # # . .
-    # . . . .
-    . # # . .
-    . . . # .
-    . # # . .
+    # # # # #
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
     `)
 radio.setGroup(1)
 basic.forever(function () {
