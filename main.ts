@@ -10,6 +10,10 @@ input.onButtonPressed(Button.A, function () {
     radio.sendValue("t", 1)
     basic.showNumber(1)
 })
+input.onButtonPressed(Button.AB, function () {
+    radio.sendValue("t", 8)
+    basic.showNumber(8)
+})
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P15, joystickbit.ButtonType.up, function () {
     radio.sendValue("t", 6)
     basic.showNumber(6)
